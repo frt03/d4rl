@@ -94,5 +94,26 @@ class KitchenBase(KitchenTaskRelaxV1, OfflineEnv):
 class KitchenMicrowaveKettleLightSliderV0(KitchenBase):
     TASK_ELEMENTS = ['microwave', 'kettle', 'light switch', 'slide cabinet']
 
+
 class KitchenMicrowaveKettleBottomBurnerLightV0(KitchenBase):
     TASK_ELEMENTS = ['microwave', 'kettle', 'bottom burner', 'light switch']
+
+
+class KitchenMicrowaveV0(KitchenBase):
+    TASK_ELEMENTS = ['microwave']
+
+
+class KitchenKettleV0(KitchenBase):
+    TASK_ELEMENTS = ['kettle']
+
+
+class KitchenLightV0(KitchenBase):
+    TASK_ELEMENTS = ['light switch']
+
+
+class KitchenSliderV0(KitchenBase):
+    TASK_ELEMENTS = ['slide cabinet']
+
+
+class KitchenBottomBurnerV0(KitchenBase):
+    TASK_ELEMENTS = ['bottom burner']
